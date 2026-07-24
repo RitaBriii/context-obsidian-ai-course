@@ -2,7 +2,7 @@
 
 Курс считается пройденным, если ученик:
 
-- прошел все модули с 0 по 5;
+- прошел все модули с 0 по 6;
 - заполнил `student-work/progress.md`;
 - заполнил чекпоинты во всех упражнениях;
 - создал или настроил стартовый Obsidian vault;
@@ -19,4 +19,4 @@
 - Заполненные `checkpoint.md` из упражнений.
 - Скриншот Obsidian graph.
 - 3-5 заметок из vault.
-- Финальную ретроспективу из `exercises/05-full-session/session-retrospective.md`.
+- Финальную ретроспективу из `exercises/06-full-session/session-retrospective.md`.
