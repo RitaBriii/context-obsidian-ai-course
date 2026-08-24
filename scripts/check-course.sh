@@ -5,7 +5,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 failed=0
 
-echo "1/3 Проверяем, что ученические шаблоны остались чистыми..."
+echo "1/4 Проверяем, что ученические шаблоны остались чистыми..."
 if ! shasum -a 256 -c checks/clean-template-checksums.sha256; then
   echo
   echo "Один или несколько эталонных шаблонов изменены."
@@ -15,7 +15,7 @@ if ! shasum -a 256 -c checks/clean-template-checksums.sha256; then
 fi
 
 echo
-echo "2/3 Ищем устаревшие названия и пути..."
+echo "2/4 Ищем устаревшие названия и пути..."
 if rg -n -i \
   'VS Code|vscode|CLAUDE\.md|03-command-memory|04-sources|05-full-session|handouts/03-command|handouts/04-sources|handouts/05-full' \
   --glob '*.md' \
@@ -29,9 +29,21 @@ else
 fi
 
 echo
-echo "3/3 Проверяем локальные Markdown-ссылки..."
+echo "3/4 Проверяем локальные Markdown-ссылки..."
 if ! ruby scripts/check-markdown-links.rb; then
   failed=1
+fi
+
+echo
+echo "4/4 Проверяем безопасную рабочую папку..."
+if ! bash -n scripts/start-course.sh; then
+  echo "В scripts/start-course.sh есть синтаксическая ошибка."
+  failed=1
+elif ! git check-ignore -q my-work/example.md; then
+  echo "Папка my-work/ не исключена из Git."
+  failed=1
+else
+  echo "Стартовый скрипт корректен, папка my-work/ исключена из Git."
 fi
 
 echo

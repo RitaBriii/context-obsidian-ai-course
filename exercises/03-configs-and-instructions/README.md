@@ -5,12 +5,12 @@
 ## Шаги
 
 0. Оставайтесь в текущем диалоге с ассистентом.
-1. Откройте `assistant-config-template.md`.
+1. Откройте `my-work/exercises/03-configs-and-instructions/assistant-config-template.md`.
 2. Заполните разделы про цель проекта, роль ассистента и правила работы.
 3. Если у вас пока нет своего проекта, заполните шаблон для прохождения этого курса.
 4. Напишите Codex «готово». Он сам прочитает файл и проверит, достаточно ли понятно описаны инструкции.
-5. Заполните `checkpoint.md`.
-6. Перенесите важный вывод в `student-work/session-log.md`.
+5. Заполните `my-work/exercises/03-configs-and-instructions/checkpoint.md`.
+6. Перенесите важный вывод в `my-work/student-work/session-log.md`.
 
 ## Критерий готовности
 

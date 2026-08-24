@@ -1,6 +1,6 @@
 628f34c8f125951d342b6156119e0b788a59de84c011793b3073c8184a07f6e6  exercises/01-context-map/context-map.md
 9af68d9c2fa3377ca9240cfc767b8e6d11677517ee0f25db9450c2764e4a2fcd  exercises/01-context-map/checkpoint.md
-bd475e88c6eb68e1e6255006ed85d24d7014f597674d9052ef2ae240c07a02ba  exercises/02-obsidian-vault/checkpoint.md
+5f367eb2a0f180ec9b8dc6f9bd34e4c7cd28d143704d382dad189370ea5146f9  exercises/02-obsidian-vault/checkpoint.md
 b154329a6c29b1d636d2d7ea158bc818961234be2b9f0f157a212f31e420a68c  exercises/03-configs-and-instructions/assistant-config-template.md
 24df45f38d52aac8a5caabd6e7d8fa46433f48f4b2cdd3a768a35fd079ce9e7a  exercises/03-configs-and-instructions/checkpoint.md
 696e3d291371f608b3892584217f8329057fc20fe59102fd7badd3d750b34d18  exercises/04-command-memory/command-template.md
@@ -13,6 +13,7 @@ b1eb7c491a56658ad93f3764afbef92a21c7c5ae3633ea750dadc28c2e7a768d  exercises/05-s
 d040baebc20fca642c8645e2310eed97df516bcbb47a15eb1e16896d10aa37f2  student-work/progress.md
 261d2d3393c1be889e0a49f9eed3af7a61ceaf2c9390a3f073a16056cfb90e62  student-work/session-log.md
 2b3999d310cdbdf44d951f14aef1235d76f5acfd1748f97b762478df0cc2ef91  student-work/vault-plan.md
+a4eddf8e2f695546eb2ab1b527d0a21b5c2e8046ede226fe35671c2550bff865  templates/obsidian-vault/.gitignore
 a88ddc865ecdd292271520e27b722d39c911ad53709fb33188d0ee0640f3d321  templates/obsidian-vault/10-projects/Проект - пример.md
 c7b18d82cab2869036818d139b1ea5b7ab8a14447ea81ae3c8fbae013c5c5fe8  templates/obsidian-vault/20-decisions/Решение - пример.md
 2dd05c43133fb88cbf6b04870c8be04edfb2cc3f4f624bdce42696bb1db30ada  templates/obsidian-vault/30-commands/Команда - пример.md

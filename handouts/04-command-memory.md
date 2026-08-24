@@ -31,7 +31,7 @@
 
 ## Практический результат
 
-Создана первая заметка команды через `exercises/04-command-memory/command-template.md`.
+Создана первая заметка команды через `my-work/exercises/04-command-memory/command-template.md`.
 
 ## Самопроверка
 

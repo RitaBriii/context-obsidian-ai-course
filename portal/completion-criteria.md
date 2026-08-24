@@ -3,20 +3,22 @@
 Курс считается пройденным, если ученик:
 
 - прошел все модули с 0 по 6;
-- заполнил `student-work/progress.md`;
+- заполнил `my-work/student-work/progress.md`;
 - заполнил чекпоинты во всех упражнениях;
 - создал или настроил стартовый Obsidian vault;
+- создал внутри vault локальный Git-репозиторий;
+- настроил Obsidian Git и подтвердил новый локальный commit;
 - создал первый файл проектных инструкций для ассистента;
 - добавил хотя бы одну заметку проекта;
 - добавил хотя бы одну заметку команды;
 - добавил хотя бы один источник;
 - провел одну полную ИИ-сессию по шаблону;
-- обновил `student-work/session-log.md` после прохождения.
+- обновил `my-work/student-work/session-log.md` после прохождения.
 
 ## Что можно попросить ученика загрузить на платформу
 
-- Заполненный `student-work/progress.md`.
-- Заполненные `checkpoint.md` из упражнений.
+- Заполненный `my-work/student-work/progress.md`.
+- Заполненные `checkpoint.md` из `my-work/exercises/`.
 - Скриншот Obsidian graph.
 - 3-5 заметок из vault.
-- Финальную ретроспективу из `exercises/06-full-session/session-retrospective.md`.
+- Финальную ретроспективу из `my-work/exercises/06-full-session/session-retrospective.md`.

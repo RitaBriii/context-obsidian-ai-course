@@ -31,7 +31,7 @@
 
 ## Практический результат
 
-Добавлен один источник через `exercises/05-sources/source-template.md` и связаны заметки.
+Добавлен один источник через `my-work/exercises/05-sources/source-template.md` и связаны заметки.
 
 ## Самопроверка
 

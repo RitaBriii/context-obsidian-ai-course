@@ -42,7 +42,7 @@
 
 ## Практический результат
 
-Создан первый файл проектных инструкций через `exercises/03-configs-and-instructions/assistant-config-template.md`.
+Создан первый файл проектных инструкций через `my-work/exercises/03-configs-and-instructions/assistant-config-template.md`.
 
 ## Самопроверка
 

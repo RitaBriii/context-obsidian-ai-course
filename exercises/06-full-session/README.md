@@ -5,13 +5,13 @@
 ## Шаги
 
 0. Оставайтесь в текущем диалоге с ассистентом.
-1. Откройте `session-brief.md`.
+1. Откройте `my-work/exercises/06-full-session/session-brief.md`.
 2. Опишите задачу, контекст и критерии готовности.
 3. Дайте brief ИИ-ассистенту.
 4. Во время работы сохраняйте новые команды, решения и источники.
-5. После работы заполните `session-retrospective.md`.
-6. Заполните `checkpoint.md`.
-7. Обновите `student-work/progress.md` и `student-work/session-log.md`.
+5. После работы заполните `my-work/exercises/06-full-session/session-retrospective.md`.
+6. Заполните `my-work/exercises/06-full-session/checkpoint.md`.
+7. Обновите `my-work/student-work/progress.md` и `my-work/student-work/session-log.md`.
 
 ## Критерий готовности
 
